@@ -1,0 +1,18 @@
+{
+  "name": "gif-canvas",
+  "version": "1.0.0",
+  "description": "Draw GIFs to canvas.",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "browserify src/index.js -s GifCanvas -o dist/gif-canvas.js"
+  },
+  "author": "Thomas Mullen",
+  "license": "MIT",
+  "devDependencies": {
+    "standard": "^8.6.0",
+    "tape": "^4.6.3"
+  },
+  "dependencies": {
+    "pixel-gif": "0.0.1"
+  }
+}
